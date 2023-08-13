@@ -1,0 +1,22 @@
+.containerCharacters{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 20px;
+    justify-items: center;
+}
+
+.containerPagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+
+.loading{
+    padding: 0 20px;
+}
+
+.error{
+    padding: 0 20px;
+}
